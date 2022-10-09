@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    padding: 17%;
+    display: flex;
+    align-self: baseline;
+    align-items: center;
+    align-content: flex-end;
+    height: 100%;
+    right: 100%;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: blueviolet;
+    
+ 
+}
+
+img {
+    max-width: 640px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    border-radius: 59%;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
